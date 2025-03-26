@@ -16,7 +16,7 @@ COPY . .
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Executar treinamento do modelo
-RUN python treina_modelo.py
+RUN python train_model.py
 
 # Expor porta padrão do Streamlit
 EXPOSE 8501
