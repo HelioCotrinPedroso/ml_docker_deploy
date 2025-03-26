@@ -6,7 +6,7 @@ import joblib
 import numpy as np
 
 # Load Model
-model = joblib.load("modelo.pkl")
+model = joblib.load("model.pkl")
 
 # Configuration Page of Streamlit
 st.set_page_config(page_title="Docker Deployment", page_icon=":100:", layout="wide")
